@@ -2934,6 +2934,7 @@ ol.comment-list ol.children > li > ol.children li {
   opacity: 0;
   -webkit-transition-delay: 1.4s;
   transition-delay: 1.4s;
+    color: #fff!important;
 }
 @media (min-width:992px) {
   .blockz-intro-title2 {
