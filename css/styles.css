@@ -2,12 +2,6 @@
 /*------------------------------------------------------------------
 /*------------------------------------------------------------------
 [Main Template Styles]
-
-Project:  Beardz - HTML5 Template for Barbershops
-Author: Diego Pereira & Thais Barbosa @ DotRex
-Version:  1.0.3
-Last change:  15/03/2017
-Primary use:  
 -------------------------------------------------------------------*/
 /*------------------------------------------------------------------
 [Table of contents]
@@ -953,7 +947,7 @@ textarea.textarea2 {
   top: 40%;
   left: 50%;
   padding-top: 115px;
-  margin-left: -190px;
+  width: 1px;
   visibility: hidden;
   opacity: 0;
   position: relative;
