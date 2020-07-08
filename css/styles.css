@@ -60,7 +60,7 @@ html {
   box-sizing: inherit;
 }
 body {
-  background: #fff;
+  background: #000000;
   /* Fallback for when there is no custom background color defined. */
 }
 blockquote:before,
@@ -185,15 +185,16 @@ textarea {
 ## Links
 --------------------------------------------------------------*/
 a {
-  color: royalblue;
+  color: #000000;
 }
 a:visited {
-  color: purple;
+  color: #000000;
 }
 a:hover,
 a:focus,
 a:active {
-  color: midnightblue;
+  color: #000000;
+  text-decoration: none;
 }
 a:focus {
   outline: thin dotted;
@@ -3425,5 +3426,5 @@ a:focus {
   height: 100%;
 }
 .link-reservas {
-  color: #000000;
+  color: #000000!important;
 }
