@@ -12,14 +12,8 @@
 <meta name="language" content="Spanish">
 <meta name="revisit-after" content="15 days">
 <title>Santiago's Finest Barbershop</title>
-<!-- Favicons
-================================================== -->
 <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
 <link rel="icon" href="img/favicon.png" type="image/x-icon">
-<!-- / Favicons
-================================================== -->
-<!-- Smartphone
-================================================== -->
 <meta name="mobile-web-app-capable" content="yes" />
 <meta name="apple-touch-fullscreen" content="yes" />
 <meta name="apple-mobile-web-app-title" content="Barberia">
@@ -37,29 +31,17 @@
 <link href="img/splashscreens/ipadpro1_splash.png" media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
 <link href="img/splashscreens/ipadpro3_splash.png" media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
 <link href="img/splashscreens/ipadpro2_splash.png" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
-<!-- / Smartphone
-================================================== -->
-<!-- >> CSS
-============================================================================== -->
 <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-<!-- Google Web Fonts -->
 <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,900" rel="stylesheet">
-<!-- Font Awesome -->
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDuKaWEyDgL1Fs1ssEhCEK4h_40se_JPIc"></script>
 <script src="https://kit.fontawesome.com/110d3aff68.js" crossorigin="anonymous"></script>
-<!-- animate.css -->
 <link href="vendor/animate.css" rel="stylesheet">
-<!-- Nivo Lightbox -->
 <link href="vendor/nivo-lightbox/nivo-lightbox.css" rel="stylesheet">
 <link rel="stylesheet" href="vendor/nivo-lightbox/themes/default/default.css" type="text/css" />
-<!-- Main Styles -->
 <link href="css/styles.css" rel="stylesheet">
-<!-- >> /CSS
-============================================================================== -->
 </head>
-<body class="" style="background-color: #000000;">	
-<!-- Page Loader
-========================================================= -->
+<body class="" style="background-color: #000000;" onload="frasedeldia()">	
 <div class="loader" id="page-loader"> 
   <div class="loading-wrapper">
   	<div id="loading">
@@ -74,10 +56,6 @@
     </div>
   </div>   
 </div>
-<!-- /End of Page loader
-========================================================= -->
-<!-- Top Bar
-================================================== -->
 <div id="top-bar">
     <div class="container">
         <div class="row">
@@ -88,7 +66,6 @@
                 </ul>
             </div>
             <div class="col-md-6">
-               <!-- social icons -->
                  <div class="social-icons header-social-icons">
                     <ul class="social-icons list-inline text-right">
                         <li><a href="https://fb.com/santiagofinest" target="_blank"><i class="fa fa-facebook"></i></a></li>
@@ -96,32 +73,20 @@
                         <li><a href="https://instagram.com/santiagofinest" target="_blank"><i class="fa fa-instagram"></i></a></li>
                     </ul>
                 </div>
-                <!-- /social icons -->      
             </div>
         </div>
     </div>
 </div>
-<!-- / Top Bar
-================================================== -->
-<!-- Header
-================================================== -->
 <header id="header">
 	<nav class="navbar">
         <div class="container">
             <div class="menu-wrapper">
-                <!-- Navbar Header -->
                 <div class="navbar-header">                   
-                	<!-- Collapse Button - Responsive -->
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
                         <i class="fa fa-bars"></i>
                     </button>
-                    <!-- /Collapse Button - Responsive-->
-                    <!-- logo -->
                     <a class="navbar-brand" href="/"><img src="img/logo.png" alt=""></a>
-                    <!-- /logo -->
                 </div>
-                <!-- / Navbar Header -->
-                <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse navbar-main-collapse" id="#options">
                     <ul class="nav navbar-nav navbar-right">  
                         <li>
@@ -144,81 +109,51 @@
                         </li>                   
                     </ul>                                       
                 </div>
-                <!-- /.navbar-collapse -->  
             </div>
         </div>
-        <!-- /.container -->
     </nav>
 </header>
-<!-- / Header
-================================================== -->
-<!-- Page Container -->
 <div class="container">
-	<!-- Main Content
-	================================================== -->
 	<section class="main-content" >
 		<div class="isotope-filter blockz-wrapper" id="isotope-filter">
-      <!-- ======== Block: Hero Image | Shows on: Home ======== -->
 			<div class="blockz-element inicio">
 				<div class="blockz-element-wrapper">
-					<!-- content -->
 					<div class="blockz-element-content">
-            <!-- Content: Hero Image -->
             <div class="blockz-intro active" id="intro-item1" style="background-image: url('img/intro.jpg');">
-              <!-- Carousel Item Mask -->
               <div>
                 <div class="blockz-intro-content">
                 </div>              
               </div>
-              <!-- Item Mask -->
             </div>
-            <!-- /Content: Hero Image -->
 					</div>
-					<!-- /content -->
 				</div>				
 			</div>
-			<!-- ======== /Block: Hero Image  ======== -->	
-      <!-- ======== Block: Big Content | Shows on: Home  ======== -->
       <div class="blockz-element size-2 hsize-2 inicio">
         <div class="blockz-element-wrapper">
-          <!-- content -->
           <div class="blockz-element-content with-padding with-border">
-            <!-- Content: Overlayz -->
             <div class="blockz-overlayz blockz-overlayz-style1 blockz-overlayz-big" style="background-image: url('img/featured.jpg');">
               <div class="blockz-overlayz-mask">
-                <!-- Overlayz Content -->
                 <div class="blockz-overlayz-content">
                    <h3 class="blockz-overlayz-title">"<strong>¡Tendencias</strong> modernas y <strong>clasicas</strong> en un solo lugar!"</h3>
                   <div class="blockz-overlayz-text">Santiago's Finest Barbershop. Fermin Vivaceta 957, Local 19, Independencia, Stgo - CL<br/>Desde <strong>2017</strong></div>
                 </div> 
-                <!-- /Overlayz Content -->              
               </div>
             </div>            
-            <!-- /Content: Overlayz -->
           </div>
-          <!-- /content -->
         </div>        
       </div>
-      <!-- ======== /Blocl: Big Content ======== --> 
-      <!-- ======== Block: About Text  | Shows on: About  ======== -->
       <div class="blockz-element quienes-somos size-2 hsize-2">
         <div class="blockz-element-wrapper with-padding with-big-text">
-          <!-- content -->
           <div class="blockz-element-content">
             <div class="blockz-block-title">Quienes Somos</div>
             <p>Nacida en el año 2017 y ubicada en el centro de la zona norte de Santiago.<br><br><strong>Santiago's Finest Barbershop</strong> ofrece servicios de <i>primera calidad</i> a valores asequibles. Atendiendo clientes adultos, jovenes y niños podemos abarcar todo tipo estilos en cortes de pelo y barba.<br><br>Por lo demas ofrecemos cursos introductorios y avanzados para cualquier persona que quisiera iniciarse o profundizar en el mundo de la barberia.</p>
             <a href="mailto:contacto@finest.cl" class="btn btn-default btn-rayen" data-text="¡AHORA!"><span>Hablanos <i class="fa fa-long-arrow-right"></i></span></a>
           </div>
-          <!-- /content -->
         </div>        
       </div>
-      <!-- ======== /Block: Image ======== --> 
-      <!-- ======== Block: Image | Shows on: Home / Gallery  ======== -->
       <div class="blockz-element inicio galeria size-1 hsize-1">
         <div class="blockz-element-wrapper">
-          <!-- content -->
           <div class="blockz-element-content">
-            <!-- Content: Image -->
             <div class="blockz-picture" style="background-image: url('img/gallery/1.jpg');">
               <a href="img/gallery/1.jpg" class="blockz-picture-mask nivobox" data-lightbox-gallery="gallery">
                 <div class="blockz-picture-content">
@@ -226,40 +161,26 @@
                 </div>
               </a>
             </div>            
-            <!-- /Content: Image -->
           </div>
-          <!-- /content -->
         </div>        
       </div>
-      <!-- ======== /Block: Image ======== -->  
-      <!-- ======== Block: Team Member | Shows on: About  ======== -->
       <div class="blockz-element quienes-somos size-1 hsize-1">
         <div class="blockz-element-wrapper">
-          <!-- content -->
           <div class="blockz-element-content">
-            <!-- Content: Overlayz -->
             <div class="blockz-overlayz blockz-overlayz-style3" style="background-image: url('img/team1.jpg');">
               <div class="blockz-overlayz-mask">
-                <!-- Overlayz Content -->
                 <div class="blockz-overlayz-content">
                    <h3 class="blockz-overlayz-title">Ismael Iragorri</h3>
                   <div class="blockz-overlayz-text">Barbero Profesional Venezolano</div>
                 </div> 
-                <!-- /Overlayz Content -->              
               </div>
             </div>            
-            <!-- /Content: Overlayz -->
           </div>
-          <!-- /content -->
         </div>        
       </div>
-      <!-- ======== /Block: Team Member ======== -->  
-      <!-- ======== Block: Image | Shows on: About / Gallery  ======== -->
       <div class="blockz-element quienes-somos galeria size-1 hsize-2">
         <div class="blockz-element-wrapper">
-          <!-- content -->
           <div class="blockz-element-content">
-            <!-- Content: Image -->
             <div class="blockz-picture" style="background-image: url('img/gallery/4.jpg');">
               <a href="img/gallery/4.jpg" class="blockz-picture-mask nivobox" data-lightbox-gallery="gallery">
                 <div class="blockz-picture-content">
@@ -267,13 +188,9 @@
                 </div>
               </a>
             </div>            
-            <!-- /Content: Image -->
           </div>
-          <!-- /content -->
         </div>        
       </div>
-      <!-- ======== /Block: Image ======== -->
-      <!-- ======== Block: About Text  | Shows on: 404  ======== -->
       <div class="blockz-element 404 size-2 hsize-1">
         <div class="blockz-element-wrapper with-padding with-big-text" style="background-image: url('img/gallery/gato.jpg'); background-repeat: no-repeat; background-size: cover;">
           <div class="blockz-element-content">
@@ -290,14 +207,10 @@
           </div>
         </div>        
       </div>      
-      <!-- ======== Block: Services  | Shows on: Home / Services ======== -->
       <div class="blockz-element size-1 hsize-1 inicio servicios">
         <div class="blockz-element-wrapper with-padding">
-          <!-- content -->
           <div class="blockz-element-content">
-            <!-- content -->
             <div class="blockz-block-title">Servicios</div>
-            <!-- Content: Service -->
             <div class="blockz-service">
               <a href="#servicios">
               <div class="blockz-service-ico">
@@ -308,20 +221,13 @@
                 <p>Corte con maquina y/o tijera, Peinado con productos y lavado incluidos.<br><br>Diseños se deben cotizar previamente.</p>
               </div>
               </a> 
-              <!-- /Content: Service -->
             </div>            
-            <!-- /content -->
           </div>
-          <!-- /content -->
         </div>        
       </div>
-      <!-- ======== /Block: Services ======== -->        
-      <!-- ======== Block: Image | Shows on: About / Services / Gallery ======== -->
       <div class="blockz-element quienes-somos servicios galeria size-1 hsize-1">
         <div class="blockz-element-wrapper">
-          <!-- content -->
           <div class="blockz-element-content">
-            <!-- Content: Image -->
             <div class="blockz-picture" style="background-image: url('img/gallery/7.jpg');">
               <a href="img/gallery/7.jpg" class="blockz-picture-mask nivobox" data-lightbox-gallery="gallery">
                 <div class="blockz-picture-content">
@@ -329,18 +235,12 @@
                 </div>
               </a>
             </div>            
-            <!-- /Content: Image -->
           </div>
-          <!-- /content -->
         </div>        
       </div>
-      <!-- ======== /Block: Image ======== -->  
-      <!-- ======== Block: Opening hours  | Shows on: Home / About ======== -->
       <div class="blockz-element size-1 hsize-1 inicio quienes-somos 404">
         <div class="blockz-element-wrapper with-padding">
-          <!-- content -->
           <div class="blockz-element-content">
-            <!-- content -->
             <div class="blockz-block-title">Horarios</div>
             <dl class="dl-horizontal hours-list">
               <dt>Lunes</dt>
@@ -358,18 +258,12 @@
               <dt>Domingo</dt>
               <dd>Cerrado</dd>
             </dl>
-            <!-- /content -->
           </div>
-          <!-- /content -->
         </div>        
       </div>
-      <!-- ======== /Block: Opening hours ======== -->
-      <!-- ======== Block: Image Home  | Shows on: Home / Gallery ======== -->
       <div class="blockz-element inicio galeria size-1 hsize-1">
         <div class="blockz-element-wrapper">
-          <!-- content -->
           <div class="blockz-element-content">
-            <!-- Content: Image -->
             <div class="blockz-picture" style="background-image: url('img/gallery/gato.gif');">
               <a href="img/gallery/gato.gif" class="blockz-picture-mask nivobox" data-lightbox-gallery="gallery">
                 <div class="blockz-picture-content">
@@ -377,64 +271,41 @@
                 </div>
               </a>
             </div>            
-            <!-- /Content: Image -->
           </div>
-          <!-- /content -->
         </div>        
       </div>
-      <!-- ======== /Block: Image ======== -->  
-      <!-- ======== Block: Team Member | Shows on: About  ======== -->
       <div class="blockz-element quienes-somos size-1 hsize-1">
         <div class="blockz-element-wrapper">
-          <!-- content -->
           <div class="blockz-element-content">
-            <!-- Content: Overlayz -->
             <div class="blockz-overlayz blockz-overlayz-style3" style="background-image: url('img/team2.jpg');">
               <div class="blockz-overlayz-mask">
-                <!-- Overlayz Content -->
                 <div class="blockz-overlayz-content">
                    <h3 class="blockz-overlayz-title">Jesus Ruiz</h3>
                   <div class="blockz-overlayz-text">Barbero Profesional Venezolano</div>
                 </div> 
-                <!-- /Overlayz Content -->              
               </div>
             </div>            
-            <!-- /Content: Overlayz -->
           </div>
-          <!-- /content -->
         </div>        
       </div>
-      <!-- ======== /Block: Team Member ======== -->     
-      <!-- ======== Block: Team Member | Shows on: About  ======== -->
       <div class="blockz-element quienes-somos size-1 hsize-1">
         <div class="blockz-element-wrapper">
-          <!-- content -->
           <div class="blockz-element-content">
-            <!-- Content: Overlayz -->
             <div class="blockz-overlayz blockz-overlayz-style3" style="background-image: url('img/team3.jpg');">
               <div class="blockz-overlayz-mask">
-                <!-- Overlayz Content -->
                 <div class="blockz-overlayz-content">
                    <h3 class="blockz-overlayz-title">Andres Lucena</h3>
                   <div class="blockz-overlayz-text">Barbero Profesional Venezolano</div>
                 </div> 
-                <!-- /Overlayz Content -->              
               </div>
             </div>            
-            <!-- /Content: Overlayz -->
           </div>
-          <!-- /content -->
         </div>        
       </div>
-      <!-- ======== /Block: Team Member ======== -->     
-      <!-- ======== Block: Services  | Shows on: About  ======== -->
       <div class="blockz-element size-1 hsize-1 quienes-somos servicios">
         <div class="blockz-element-wrapper with-padding">
-          <!-- content -->
           <div class="blockz-element-content">
-            <!-- content -->
             <div class="blockz-block-title">Servicios</div>
-            <!-- Content: Service -->
             <div class="blockz-service">
               <a href="#servicios">
               <div class="blockz-service-ico">
@@ -445,20 +316,13 @@
                 <p>Corte, perfilado o afeitado de barba. Aplicación de productos y lavado incluidos.<br><br>Puede agregarse coloración por un extra.</p></p>
               </div>
             </a>
-              <!-- /Content: Service -->
             </div>            
-            <!-- /content -->
           </div>
-          <!-- /content -->
         </div>        
       </div>
-      <!-- ======== /Block: Services ======== -->      
-      <!-- ======== Block: Image  | Shows on: Services / Gallery ======== -->
       <div class="blockz-element servicios galeria size-1 hsize-1">
         <div class="blockz-element-wrapper">
-          <!-- content -->
           <div class="blockz-element-content">
-            <!-- Content: Image -->
             <div class="blockz-picture" style="background-image: url('img/gallery/maquina-bn.gif');">
               <a href="img/gallery/maquina.gif" class="blockz-picture-mask nivobox" data-lightbox-gallery="gallery">
                 <div class="blockz-picture-content">
@@ -466,18 +330,12 @@
                 </div>
               </a>
             </div>            
-            <!-- /Content: Image -->
           </div>
-          <!-- /content -->
         </div>        
       </div>
-      <!-- ======== /Block: Image ======== -->          
-      <!-- ======== Block: Image  | Shows on: Services / Gallery ======== -->
       <div class="blockz-element servicios galeria size-1 hsize-1">
         <div class="blockz-element-wrapper">
-          <!-- content -->
           <div class="blockz-element-content">
-            <!-- Content: Image -->
             <div class="blockz-picture" style="background-image: url('img/gallery/5.jpg');">
               <a href="img/gallery/5.jpg" class="blockz-picture-mask nivobox" data-lightbox-gallery="gallery">
                 <div class="blockz-picture-content">
@@ -485,20 +343,13 @@
                 </div>
               </a>
             </div>            
-            <!-- /Content: Image -->
           </div>
-          <!-- /content -->
         </div>        
       </div>
-      <!-- ======== /Block: Image ======== -->
-      <!-- ======== Block: Services  | Shows on: Services  ======== -->
       <div class="blockz-element size-1 hsize-1 servicios">
         <div class="blockz-element-wrapper with-padding">
-          <!-- content -->
           <div class="blockz-element-content">
-            <!-- content -->
             <div class="blockz-block-title">Servicios</div>
-            <!-- Content: Service -->
             <div class="blockz-service">
               <div class="blockz-service-ico">
               	<i class="fa fa-cut fa-3x"></i>
@@ -508,20 +359,13 @@
                 <h2 class="blockz-service-title">Corte de pelo y barba</h2>
                 <p>Corte de pelo y barba con tijeras, maquina y navaja. Aplicación de productos y lavado para pelo y barba incluidos.</p>
               </div>
-              <!-- /Content: Service -->
             </div>            
-            <!-- /content -->
           </div>
-          <!-- /content -->
         </div>        
       </div>
-      <!-- ======== /Block: Services ======== -->        
-      <!-- ======== Block: Image  | Shows on: Services / Gallery ======== -->
       <div class="blockz-element servicios galeria size-1 hsize-1">
         <div class="blockz-element-wrapper">
-          <!-- content -->
           <div class="blockz-element-content">
-            <!-- Content: Image -->
             <div class="blockz-picture" style="background-image: url('img/gallery/8.jpg');">
               <a href="img/gallery/8.jpg" class="blockz-picture-mask nivobox" data-lightbox-gallery="gallery">
                 <div class="blockz-picture-content">
@@ -529,177 +373,109 @@
                 </div>
               </a>
             </div>            
-            <!-- /Content: Image -->
           </div>
-          <!-- /content -->
         </div>        
       </div>
-      <!-- ======== /Block: Image ======== -->
-      <!-- ======== Block: Services  | Shows on: Services  ======== -->
       <div class="blockz-element size-1 hsize-1 servicios">
         <div class="blockz-element-wrapper with-padding">
-          <!-- content -->
           <div class="blockz-element-content">
-            <!-- content -->
             <div class="blockz-block-title">Servicios</div>
-            <!-- Content: Service -->
             <div class="blockz-service">
               <div class="blockz-service-ico">
-				<i class="fa fa-cut fa-3x"></i>
+                <i class="fa fa-cut fa-3x"></i>
                 <img src="img/navaja.png" alt="" style="margin-top: -20px;">
-				<i class="fa fa-tint fa-3x"></i>
+                <i class="fa fa-tint fa-3x"></i>
               </div> 
               <div class="blockz-service-content">
                 <h2 class="blockz-service-title">Servicio Completo</h2>
                 <p>Todos nuestros servicios acompañados de una limpieza facial con exfoliación, vapor y mascarilla para puntos negros.</p>
               </div>
-              <!-- /Content: Service -->
             </div>            
-            <!-- /content -->
           </div>
-          <!-- /content -->
         </div>        
       </div>
-      <!-- ======== /Block: Services ======== -->
-      <!-- ======== Block: About Text  | Shows on: Prices  ======== -->
       <div class="blockz-element valores size-2 hsize-2">
         <div class="blockz-element-wrapper with-padding with-big-text">
-          <!-- content -->
           <div class="blockz-element-content">
             <h2 class="blockz-block-title">Valores</h2>
             <ul class="blockz-price-list">
-              <!-- item -->
               <li>
-                <!-- item title -->
                 <div class="blockz-price-title">
-                  <!-- item name -->
                   <div class="blockz-price-name">
                     <span>Corte de pelo</span>
                   </div>
-                  <!-- /item name -->
                   <div class="blockz-price-dots"></div>
-                  <!-- item price -->
                   <div class="blockz-price-price">
                     $8.000
                   </div>
-                  <!-- /item price -->
                 </div>
-                <!-- /item title -->
-                <!-- item description -->
                 <div class="blockz-price-description">
                   <p>Con maquina y/o tijera. Peinado con productos y lavado incluidos.</p>
                 </div>
-                <!-- /item description -->
               </li> 
-              <!-- /item --> 
-              <!-- item -->
               <li>
-                <!-- item title -->
                 <div class="blockz-price-title">
-                  <!-- item name -->
                   <div class="blockz-price-name">
                     <span>Corte de barba</span>
                   </div>
-                  <!-- /item name -->
                   <div class="blockz-price-dots"></div>
-                  <!-- item price -->
                   <div class="blockz-price-price">
                     $6.000
                   </div>
-                  <!-- /item price -->
                 </div>
-                <!-- /item title -->
-                <!-- item description -->
                 <div class="blockz-price-description">
                   <p>Corte, perfilado o afeitado. Aplicacion de productos y lavado incluidos.</p>
                 </div>
-                <!-- /item description -->
               </li> 
-              <!-- /item --> 
-              <!-- item -->
               <li>
-                <!-- item title -->
                 <div class="blockz-price-title">
-                  <!-- item name -->
                   <div class="blockz-price-name">
                     <span>Corte de pelo y barba</span>
                   </div>
-                  <!-- /item name -->
                   <div class="blockz-price-dots"></div>
-                  <!-- item price -->
                   <div class="blockz-price-price">
                     $13.000
                   </div>
-                  <!-- /item price -->
                 </div>
-                <!-- /item title -->
-                <!-- item description -->
                 <div class="blockz-price-description">
                   <p>Corte de pelo con tijera y/o maquina junto a un corte, perfilado o afeitado de barba. Aplicación de productos y lavado incluidos.</p>
                 </div>
-                <!-- /item description -->
               </li> 
-              <!-- /item --> 
-              <!-- item -->
               <li>
-                <!-- item title -->
                 <div class="blockz-price-title">
-                  <!-- item name -->
                   <div class="blockz-price-name">
                     <span>Limpieza Facial</span>
                   </div>
-                  <!-- /item name -->
                   <div class="blockz-price-dots"></div>
-                  <!-- item price -->
                   <div class="blockz-price-price">
                     $9.000
                   </div>
-                  <!-- /item price -->
                 </div>
-                <!-- /item title -->
-                <!-- item description -->
                 <div class="blockz-price-description">
                   <p>Limpieza y exfoliación del rostro continuado de aplicacion de vapor y una mascarilla facial para los puntos negros.</p>
                 </div>
-                <!-- /item description -->
               </li> 
-              <!-- /item -->
-              <!-- item -->
               <li>
-                <!-- item title -->
                 <div class="blockz-price-title">
-                  <!-- item name -->
                   <div class="blockz-price-name">
                     <span>Servicio completo</span>
                   </div>
-                  <!-- /item name -->
                   <div class="blockz-price-dots"></div>
-                  <!-- item price -->
                   <div class="blockz-price-price">
                     $16.000
                   </div>
-                  <!-- /item price -->
                 </div>
-                <!-- /item title -->
-                <!-- item description -->
                 <div class="blockz-price-description">
                   <p>Te entrega todos los servicios que ofrecemos en un solo paquete y con un muy buen precio. ¡La experiencia completa Finest!</p>
                 </div>
-                <!-- /item description -->
               </li> 
-              <!-- /item --> 
             </ul>
           </div>
-          <!-- /content -->
         </div>        
       </div>
-      <!-- ======== /Block: Image ======== -->
-      <!-- ======== Block: Image  | Shows on: Prices / Gallery ======== -->
       <div class="blockz-element valores galeria size-2 hsize-1">
         <div class="blockz-element-wrapper">
-          <!-- content -->
           <div class="blockz-element-content">
-            <!-- Content: Image -->
             <div class="blockz-picture" style="background-image: url('img/gallery/9.jpg');">
               <a href="img/gallery/9.jpg" class="blockz-picture-mask nivobox" data-lightbox-gallery="gallery">
                 <div class="blockz-picture-content">
@@ -707,18 +483,12 @@
                 </div>
               </a>
             </div>            
-            <!-- /Content: Image -->
           </div>
-          <!-- /content -->
         </div>        
       </div>
-      <!-- ======== /Block: Image ======== -->
-      <!-- ======== Block: Image  | Shows on: Prices / Gallery ======== -->
       <div class="blockz-element valores galeria size-1 hsize-1">
         <div class="blockz-element-wrapper">
-          <!-- content -->
           <div class="blockz-element-content">
-            <!-- Content: Image -->
             <div class="blockz-picture" style="background-image: url('img/gallery/10.jpg');">
               <a href="img/gallery/10.jpg" class="blockz-picture-mask nivobox" data-lightbox-gallery="gallery">
                 <div class="blockz-picture-content">
@@ -726,18 +496,12 @@
                 </div>
               </a>
             </div>            
-            <!-- /Content: Image -->
           </div>
-          <!-- /content -->
         </div>        
       </div>
-      <!-- ======== /Block: Image ======== -->
-      <!-- ======== Block: Image  | Shows on: Prices / Gallery / Contact  ======== -->
       <div class="blockz-element valores galeria reservas size-1 hsize-1">
         <div class="blockz-element-wrapper">
-          <!-- content -->
           <div class="blockz-element-content">
-            <!-- Content: Image -->
             <div class="blockz-picture" style="background-image: url('img/gallery/11.jpg');">
               <a href="img/gallery/11.jpg" class="blockz-picture-mask nivobox" data-lightbox-gallery="gallery">
                 <div class="blockz-picture-content">
@@ -745,44 +509,27 @@
                 </div>
               </a>
             </div>            
-            <!-- /Content: Image -->
           </div>
-          <!-- /content -->
         </div>        
       </div>
-      <!-- ======== /Block: Image ======== -->
-      <!-- ======== BLock: Contact Form  | Shows on: Contact  ======== -->
       <div class="blockz-element reservas size-2 hsize-2">
         <div class="blockz-element-wrapper with-padding with-big-text">
-          <!-- content -->
           <div class="blockz-element-content" style="background-image: url('img/reservas.jpg'); background-repeat: no-repeat; background-size: cover;">
-            <!-- Content: Contact Form -->
             <div id="iframeHolder"></div><br><br>
-            <button id="boton-reservas" class="btn btn-warning btn-lg btn-block" style="border: 0 !important; background: #ffc905 !important; color: #333!important; padding: 15px 30px !important;display: inline-block !important; color: inherit; vertical-align: middle !important; z-index: 1 !important; text-transform: uppercase !important;letter-spacing: 6px !important; font-weight: normal !important; border-radius: 20px !important; -moz-border-radius: 20px !important; -webkit-border-radius: 20px !important;"><span>RESERVAR <i class="fa fa-long-arrow-right"></i></span></button>
-            <!-- /Content: Contact Form-->         
+            <button id="boton-reservas" class="btn btn-warning btn-lg btn-block estilo-boton-reservas"><span>RESERVAR <i class="fa fa-long-arrow-right"></i></span></button>
           </div>
-          <!-- /content -->
         </div>        
       </div>
-      <!-- ======== /Block: Contat Form ======== --> 
-      <!-- ======== Block: Map  | Shows on: Contact ======== -->
       <div class="blockz-element reservas size-1 hsize-2">
         <div class="blockz-element-wrapper">
-          <!-- content -->
           <div class="blockz-element-content">
-          <a href="https://www.google.com/maps/dir//Santiago's+Finest+Barbershop" target="_blank" class="link-reservas"><br>Santiago's Finest Barbershop</a>  
-            <div class="blockz-map" id="map">
-              <iframe src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJhai_oM7FYpYR4szIyIx7UyM&key=AIzaSyDuKaWEyDgL1Fs1ssEhCEK4h_40se_JPIc" style="pointer-events: none;" allowfullscreen=""></iframe>
+            <div class="blockz-map mapz" id="map">
             </div>
           </div>
-          <!-- /content -->
-        </div>        
+        </div>  
       </div>
-      <!-- ======== /Block: Map ======== -->
-      <!-- ======== Block: Image  | Shows on: Contact ======== -->
       <div class="blockz-element reservas 404 size-1 hsize-1">
         <div class="blockz-element-wrapper with-padding">
-          <!-- content -->
           <div class="blockz-element-content">  
             <h2 class="blockz-block-title">Información de contacto</h2>
             <h4>Telefono</h4>
@@ -792,73 +539,48 @@
             <h4><br>Dirección:</h4>
             <a href="https://www.google.com/maps/dir//Santiago's+Finest+Barbershop" target="_blank" class="link-reservas">Fermin Vivaceta 957, Local 19, Independencia, Stgo - CL <i class="fas fa-map-marker-alt"></i></a>              
           </div>           
-          <!-- /content -->
         </div>        
       </div>
-      <!-- ======== /Block: Image ======== -->
 		</div>	
-		<!-- /Page Elements -->
 	</section>
-	<!-- /Main Content
-	================================================== -->  
 </div>
-<!-- /.page container -->
-<!-- Footer
-================================================== -->
 <footer id="footer">
   <div id="footer-top">
     <div class="container">
-    	<!-- Social icons -->
         <ul class="social-footer">
             <li><a href="fb://profile/201098123701785" class="btn-default btn-wapasha" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a></li>
             <li><a href="https://twitter.com/santiagofinest" target="_blank" class="btn-default btn-wapasha" data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class="fa fa-twitter"></i></a></li>
             <li><a href="https://instagram.com/santiagofinest" target="_blank" class="btn-default btn-wapasha" data-toggle="tooltip" data-placement="top" title="Instagram"><i class="fa fa-instagram"></i></a></li>
         </ul>
-        <!-- /Social Icons --> 
-        <!-- Footer Quote -->  
-        <p class="footer-quote">"Me quiero volver chango"<br/><span class="footer-quote-author">Homero Simpson</span></p>
-        <!-- /Footer Quote -->
+        <p class="footer-quote"><button id="frase_del_dia" onclick="frasedeldia()">Frase del dia</button></p>
     </div>    
   </div>
   <div id="footer-bottom">
     <div class="container">
-      <p class="footer-bottom-text2"><span>© 2020, <a href="/">Santiago's Finest Barbershop</a></span></p>
+      <p class="footer-bottom-text2"><span>© <span id="year"></span>, <a href="/">Santiago's Finest Barbershop</a></span></p>
     </div>
   </div>
 </footer>
-<!-- /Footer
-================================================== -->
-<!-- >> JS
-============================================================================== -->
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="vendor/jquery.min.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 <script src="vendor/validate.js"></script>
-<!-- Modal box-->
 <script src="vendor/nivo-lightbox/nivo-lightbox.min.js"></script>
-<!-- Images Loaded-->
 <script src="vendor/imagesloaded.pkgd.min.js"></script>
-<!-- Mansonry-->
 <script src="vendor/masonry.pkgd.min.js"></script>
-<!-- Isotope-->
 <script src="vendor/jquery.ba-bbq.min.js"></script>
 <script src="vendor/jquery.isotope2.min.js"></script>
 <script src="vendor/packery-mode.pkgd.min.js"></script>
-<!-- Double Tap to Go -->
 <script src="vendor/doubletaptogo.min.js"></script>
-<!-- Cross-browser -->
 <script src="vendor/cross-browser.js"></script>
-<!-- Main Scripts -->
+<script src="vendor/popper.min.js"></script>
+<script src="vendor/gmap3.min.js"></script>
+<script src="js/gm.js"></script>
 <script src="js/main.js"></script>
 <script src="js/reservas.js"></script>
-<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<script src="js/frase_del_dia.js"></script>
 <!--[if lt IE 9]>
   <script src="vendor/html5shiv.js"></script>
   <script src="vendor/respond.min.js"></script>
 <![endif]-->
-<!-- >> /JS
-============================================================================= -->
 </body>
 </html>

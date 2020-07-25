@@ -200,6 +200,8 @@
     var nivoLightbox = $('a.nivobox');
     nivoLightbox.nivoLightbox({ effect: 'fade' });
 
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+
   //End - Document Ready
   });
 

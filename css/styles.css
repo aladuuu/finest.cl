@@ -2805,17 +2805,15 @@ ol.comment-list ol.children > li > ol.children li {
 }
 .blockz-map {
   padding-bottom: 0;
-  margin-bottom: 20px;
 }
 @media (min-width: 768px) {
   .blockz-map {
     margin-bottom: 0;
   }
 }
-.blockz-map iframe {
+.blockz-map {
   width: 100% !important;
   margin-bottom: -5px !important;
-  pointer-events: none;
   border: 0 !important;
   position: absolute;
   top: 0;
@@ -3427,4 +3425,30 @@ a:focus {
 }
 .link-reservas {
   color: #000000!important;
+}
+a[href^="http://maps.google.com/maps"]{display:none !important}
+a[href^="https://maps.google.com/maps"]{display:none !important}
+.gmnoprint a, .gmnoprint span, .gm-style-cc {
+    display:none;
+}
+.estilo-boton-reservas {
+  border: 0 !important;
+  background: #ffc905 !important;
+  color: #333!important;
+  padding: 15px 30px !important;
+  display: inline-block !important;
+  color: inherit;
+  vertical-align: middle !important;
+  z-index: 1 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 6px !important;
+  font-weight: normal !important;
+  border-radius: 20px !important;
+  -moz-border-radius: 20px !important;
+  -webkit-border-radius: 20px !important;
+}
+#frase_del_dia {
+  background: none;
+  border: none;
+  pointer-events: none;
 }
