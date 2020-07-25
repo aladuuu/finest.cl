@@ -1,6 +1,6 @@
 var randomText = [];
-randomText[0] = '"Me quiero volver chango..."<br/><span class="footer-quote-author">Homero Simpson</span>';
-randomText[1] = '"Ay caramba!"<br/><span class="footer-quote-author">Bart Simpson</span>';
+randomText[0] = '"Ay caramba!"<br/><span class="footer-quote-author">Bart Simpson</span>';
+randomText[1] = '"Me quiero volver chango..."<br/><span class="footer-quote-author">Homero Simpson</span>';
 randomText[2] = '"Los sabios hablan porque tienen algo que decir. Los tontos hablan porque tienen que decir algo"<br/><span class="footer-quote-author">Platón</span>';
 randomText[3] = '"Si no puedes hacer el bien, por lo menos no hagas daño"<br/><span class="footer-quote-author">Hipocrates</span>';
 randomText[4] = '"Dame alas para volar y motivos para quedarme"<br/><span class="footer-quote-author">Acción Poetica</span>';
